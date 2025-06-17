@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dream Team</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="headertext">
+        <h2>Dream Team Builder</h2>
+      </div>
+      <div id="subtext">
+        <h4>Search Cricket players, build your dream lineup. Live the dream</h4>
+      </div>
+    </header>
+    <main>
+      <div class="boxes">
+        <div class="searchbox">
+          <div class="search">
+            <input
+              id="input"
+              type="text"
+              placeholder="Enter the player you want to search"
+            />
+            <button id="searchbtn">Search</button>
+          </div>
+          <div class="playerbox">
+            <div class="playerdata1">
+              <pre id="pdata1para"></pre>
+              <button id="add">Add to Team</button>
+            </div>
+          </div>
+        </div>
+        <div class="playerlistbox">
+          <div class="playerlistinnerbox">
+            <div class="list-header">
+              <p>List of Players</p>
+            </div>
+            <div class="list"></div>
+          </div>
+        </div>
+        <div class="teambox">
+          <div class="teaminnerbox">
+            <div class="team-header">
+              <p>Your Team</p>
+            </div>
+            <div class="team"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
