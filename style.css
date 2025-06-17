@@ -7,14 +7,14 @@ header {
   top: 0;
   position: fixed;
   width: 100%;
-  height: 120px;
+  height: 100px;
   background-color: #283618;
   color: #fefae0;
   text-align: center;
 }
 #headertext {
   font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 0.5;
 }
 #subtext {
@@ -22,8 +22,8 @@ header {
   line-height: 1;
 }
 .searchbox {
-  height: 525px;
-  width: 400px;
+  height: 500px;
+  width: 380px;
   background-color: #606c38;
   /* margin: 50px; */
   /* margin-top: 150px; */
@@ -56,8 +56,8 @@ header {
   cursor: pointer;
 }
 .playerbox {
-  height: 420px;
-  width: 350px;
+  height: 400px;
+  width: 330px;
   border: none;
   border-radius: 5px;
   background-color: #dda15e;
@@ -70,7 +70,7 @@ header {
 }
 .playerdata1 {
   height: 350px;
-  width: 320px;
+  width: 300px;
   border: none;
   border-radius: 5px;
   background-color: #fefae0;
@@ -99,8 +99,8 @@ pre {
   cursor: pointer;
 }
 .playerlistbox {
-  height: 525px;
-  width: 400px;
+  height: 500px;
+  width: 380px;
   background-color: #606c38;
   border-radius: 15px;
   transition: box-shadow 0.3s ease-in;
@@ -109,8 +109,8 @@ pre {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 .playerlistinnerbox {
-  height: 450px;
-  width: 350px;
+  height: 420px;
+  width: 330px;
   border: none;
   border-radius: 5px;
   background-color: #dda15e;
@@ -144,8 +144,8 @@ pre {
   overflow-x: hidden; 
 }
 .teambox{
-height: 525px;
-  width: 400px;
+height: 500px;
+  width: 380px;
   background-color: #606c38;
   border-radius: 15px;
   transition: box-shadow 0.3s ease-in;
@@ -154,8 +154,8 @@ height: 525px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 .teaminnerbox{
-    height: 450px;
-  width: 350px;
+    height: 420px;
+  width: 330px;
   border: none;
   border-radius: 5px;
   background-color: #dda15e;
