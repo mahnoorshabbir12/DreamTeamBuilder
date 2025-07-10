@@ -55,10 +55,11 @@ async function printPlayerInfo(url) {
     console.log(result.data[0]);
     playerData.innerText = `    Name = ${result.data[0].name}\n    Country = ${result.data[0].country}\n    Status = ${result.status}\n    Hits Today: ${result.info.hitsToday}\n    Hits Used: ${result.info.hitsUsed}\n    Hits Limit: ${result.info.hitsLimit}\n    Credits: ${result.info.credits}`;
     data = playerData.innerText;
-  } else {
-    playerData.innerText = "                No player found.";
-    data = playerData.innerText;
-  }
+  } 
+  // else {
+  //   playerData.innerText = "                No player found.";
+  //   data = playerData.innerText;
+  // }
   return data;
 }
 
